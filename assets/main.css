@@ -178,7 +178,7 @@ li.say-hi {
 
 .mobile-links ul li span {
     position: relative;
-    left: 20px;
+    left: 17px;
 }
 
 .mobile-links ul li {
@@ -190,12 +190,12 @@ li.say-hi {
 .mobile-links ul li i {
     width: 20px;
     position: relative;
-    left: 19px;
+    left: 16px;
 }
 .mobile-links li.say-hi {
     width: 80px;
     position: relative;
-    left: 15px;
+    left: 8px;
     text-align: center;
     margin-top: 15px;
 }
