@@ -123,7 +123,7 @@ img#nav-branding-logo {
 
 .nav-links {
     position: relative;
-    top: -8px;
+    top: -12px;
 }
 
 li.say-hi {
@@ -537,6 +537,9 @@ footer {
         width: 100%;
         margin: 50px 50px;
     }
+    .reviews-flex {
+        margin: 20px auto 0 auto;
+    }
     /* footer */
     footer {
         text-align: center;
@@ -627,6 +630,9 @@ footer {
     /* reviews */
     .review-block {
         width: 80%;
+    }
+    .reviews-flex {
+        margin: 10px auto 0 auto;
     }
 }
 
