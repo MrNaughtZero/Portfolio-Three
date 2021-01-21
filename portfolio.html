@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/main.css" type="text/css" rel="stylesheet">
+    <title>Neil McNaught | Dev Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-branding">
+            <h2>Neil McNaught</h2>
+            <img src="assets/img/logo-img.jpeg" width="40" height="40" id="nav-branding-logo">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <a href="#portfolio">
+                    <li>
+                        Portfolio
+                    </li>
+                </a>
+                <a href="/index.html#about">
+                    <li>
+                        About
+                    </li>
+                </a>
+                <a href="/index.html#articles">
+                    <li>
+                        Articles
+                    </li>
+                </a>
+                <a href="mailto:neil.naught@icloud.com">
+                    <li class="say-hi">
+                        Say Hi
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav-mobile">
+            <i onclick="showMobileNav()" id="hamburger-icon" class="fas fa-bars"></i>
+            <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
+            <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
+            <div class="mobile-links">
+                <ul>
+                    <a href="/index.html">
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>
+                                Home
+                            </span>
+                        </li>
+                    </a>
+                    <a href="/portfolio.html">
+                        <li>
+                            <i class="fas fa-palette"></i>
+                            <span>
+                                Portfolio
+                            </span>
+                        </li>
+                    </a>
+                    <a href="/index.html#about">
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <span>
+                                About
+                            </span>
+                        </li>
+                    </a>
+                    <a href="/index.html#articles">
+                        <li>
+                            <i class="fas fa-newspaper"></i>
+                            <span>Articles</span>
+                        </li>
+                    </a>
+                    <a href="mailto:neil.naught@icloud.com">
+                        <li class="say-hi">
+                            Say Hi
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/soul-yoga.png" class="portfolio-img" alt="screenshot of yoga website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>Soul Yoga</h2>
+                    <p class="portfolio-p">
+                        SoulYoga is a very basic HTML/CSS template for a Yoga Company. Created within a day, and fully responsive. Javascript used only for the mobile menu, and to apply additional classes on nav links.
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://mrnaughtzero.github.io/Soul-Yoga/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/newapp.png" class="portfolio-img" alt="screenshot of newapp website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>New App</h2>
+                    <p class="portfolio-p">
+                        New App is a landing page for an iOS/Google App. Built with HTML, CSS and Javascript.
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://mrnaughtzero.github.io/New-App/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/neilwrites.png" class="portfolio-img" alt="screenshot of neilwrites website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>neilWrites</h2>
+                    <p class="portfolio-p">
+                        neilWrites is a blogging web app built with Flask. It currently doesn't allow support new user registrations, but it may be added in the future. 
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Python
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Flask
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                mySQL
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://fierce-forest-17631.herokuapp.com/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/cleandash.png" class="portfolio-img" alt="screenshot of cleandash website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>Clean Dash</h2>
+                    <p class="portfolio-p">
+                        Clean Dash is an Admin Dashboard created with HTML, CSS, and Javascript. The UI is from a Dribble post I came across. 90% finished. Mobile needs some minor changed & mobile nav to be created.
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://mrnaughtzero.github.io/Clean-Dash/index.html" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/mycoffee.png" class="portfolio-img" alt="screenshot of my coffee website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>myCoffee</h2>
+                    <p class="portfolio-p">
+                        My Coffee is a eCommerce home page created with HTMl, CSS and a little bit of Javascript. It has no functionality - just design.
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://mrnaughtzero.github.io/myCoffee/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/sneakershields.png" class="portfolio-img" alt="screenshot of sneakershields website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>Sneaker Shields</h2>
+                    <p class="portfolio-p">
+                        Sneaker Shields is an online store that was built using WordPress with a custom theme. This was a duo effort with another developer from Fiverr.
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                WordPress
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://sneakershields.com/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-block">
+                <div class="portfolio-left">
+                    <img src="assets/img/portfolio/cbdvaperus.png" class="portfolio-img" alt="screensho of cbdvaperus website">
+                </div>
+                <div class="portfolio-right">
+                    <h2>CBDVAPERUS</h2>
+                    <p class="portfolio-p">
+                        CBDVapeRUs is an online store that sells the latest CBD products. It was originally built with WordPress. Pages were designed using Visual Composer
+                    </p>
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                WordPress
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://cbdvaperus.com/" target="_blank">
+                        <button type="button" class="btn-opac btn-blue">View Live</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Developed by Neil McNaught❤️</p>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

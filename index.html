@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/main.css" type="text/css" rel="stylesheet">
+    <title>Neil McNaught | Dev Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-branding">
+            <h2>Neil McNaught</h2>
+            <img src="assets/img/logo-img.jpeg" width="40" height="40" id="nav-branding-logo">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <a href="/portfolio.html">
+                    <li>
+                        Portfolio
+                    </li>
+                </a>
+                <a href="#about">
+                    <li>
+                        About
+                    </li>
+                </a>
+                <a href="#articles">
+                    <li>
+                        Articles
+                    </li>
+                </a>
+                <a href="mailto:neil.naught@icloud.com">
+                    <li class="say-hi">
+                        Say Hi
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav-mobile">
+            <i onclick="showMobileNav()" id="hamburger-icon" class="fas fa-bars"></i>
+            <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
+            <div class="mobile-links">
+                <ul>
+                    <a href="/index.html">
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>
+                                Home
+                            </span>
+                        </li>
+                    </a>
+                    <a href="/portfolio.html">
+                        <li>
+                            <i class="fas fa-palette"></i>
+                            <span>
+                                Portfolio
+                            </span>
+                        </li>
+                    </a>
+                    <a href="#about">
+                        <li>
+                            <i class="fas fa-user"></i>
+                            <span>
+                                About
+                            </span>
+                        </li>
+                    </a>
+                    <a href="#articles">
+                        <li>
+                            <i class="fas fa-newspaper"></i>
+                            <span>Articles</span>
+                        </li>
+                    </a>
+                    <a href="mailto:neil.naught@icloud.com">
+                        <li class="say-hi">
+                            Say Hi
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-flex">
+                <div class="hero-left">
+                    <h1>Hi, I am Neil <br> <span id="web-developer-text">Web Developer</span></h1>
+                    <p class="passionate-text">Passionate about technology and building things over the web.</p>
+                    <div class="hero-social-icons">
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-github-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                    <a href="/portfolio.html">
+                        <button type="button" class="btn-opac btn-green">View Projects</button>
+                    </a>
+                </div>
+                <div class="hero-right">
+                    <div class="hero-images">
+                        <img src="assets/img/hero-img.png" class="hero-img-one" alt="picture of 3 emojis together">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-flex">
+                <h2>About Me</h2>
+                <p class="about-p">
+                    Hello! My name is Neil McNaught. I'm a Web Developer. I'm from Liverpool, United Kingdom and I love everything tech. Since I was a young child I've been interested in Technology. My favourite tech at the moment has to be VR. 
+                    <br>
+                    <br>
+                    I first started out building very simple WordPress website. Now, I like to code from scratch. My favourite language at the moment is Python - especially using the Flask Framework.
+                    <br>
+                    <br>
+                    When I'm not at my Mac coding, I like to spend my spare time being active. I enjoy visiting the gym (When Coronavirus isn't restricting me!!), spending times with friends and travelling the world. I have recently visited Amsterdam and Turkey.
+
+                    <br>
+                    <br>
+                    Hero are a few languages I've been working with:
+                    <div class="tech-stack">
+                        <ul>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                HTML & CSS
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Bootstrap
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                WordPress
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Python
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Flask
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                Git
+                            </li>
+                            <li>
+                                <i class="fas fa-circle"></i>
+                                mySQL
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </p>
+            </div>
+        </section>
+
+        <section class="index-articles" id="articles">
+            <h2>Articles I Wrote</h2>
+            <div class="article-flex">
+                <div class="article-block">
+                    <div class="article-header">
+                        <span class="article-heading">Flask</span>
+                        <span class="article-date">Jan 20 '21</span>
+                    </div>
+                    <a href="https://fierce-forest-17631.herokuapp.com/How-to-Deploy-Your-Flask-App-with-Heroku" target="_blank">
+                        <h3>How to Deploy Your Flask App with Heroku</h3>
+                    </a>
+                    <p class="article-excerpt">What is Heroku you may ask? Heroku is a cloud platform that enables us Developers to build, run...</p>
+                </div>
+            </div>
+
+            <div class="article-flex">
+                <div class="article-block">
+                    <div class="article-header">
+                        <span class="article-heading">HTML</span>
+                        <span class="article-date">Jan 21 '21</span>
+                    </div>
+                    <a href="https://fierce-forest-17631.herokuapp.com/Creating-a-FAQ-Accordion-Without-Javascript" target="_blank">
+                        <h3>Creating a FAQ Accordion Without Javascript</h3>
+                    </a>
+                    <p class="article-excerpt">if you type HTML Accordion into Google, you'll get a whole bunch of results on how you can create an Accordion...</p>
+                </div>
+            </div>
+
+            <div class="article-flex">
+                <div class="article-block">
+                    <div class="article-header">
+                        <span class="article-heading">Flask</span>
+                        <span class="article-date">Aug 30 '20</span>
+                    </div>
+                    <a href="https://fierce-forest-17631.herokuapp.com/Creating-Secure-Forms-with-Flask-Wtf" target="_blank">
+                        <h3>Creating Secure Forms with Flask Wtf</h3>
+                    </a>
+                    <p class="article-excerpt">Creating secure forms in Flask is easy. Flask-Wtf is an excellent third party module, that makes creating...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developed by Neil McNaught❤️</p>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>
