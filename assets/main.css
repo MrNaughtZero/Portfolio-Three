@@ -537,6 +537,10 @@ footer {
         width: 100%;
         margin: 50px 50px;
     }
+    /* footer */
+    footer {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:900px){
