@@ -354,6 +354,90 @@ p.article-excerpt {
     letter-spacing: 0.6px;
 }
 
+/* reviews */
+
+.reviews {
+    background: var(--green);
+    min-height: 400px;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    padding-top: 40px;
+}
+
+.reviews-flex {
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.review-block {
+    width: 30%;
+    background: #fafafa;
+    color: black;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 3px 28px 3px rgba(0,0,0,.17);
+    margin: 29px 0px 20px 0;
+    position: relative;
+}
+
+.review-block::after {
+    content: "Fiverr";
+    background: #555555;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    position: absolute;
+    right: -12px;
+    top: -24px;
+    width: 70px;
+    text-align: center;
+}
+
+h2.reviewer {
+    text-align: left;
+    color: black;
+    padding-top: 0;
+}
+
+span.review-date {
+    color: var(--blue);
+    font-size: 12px;
+}
+
+.review-rating {
+    padding: 10px 0;
+}
+
+.review-rating span {
+    color: black;
+}
+
+i.fas.fa-star {
+    color: orange;
+    font-size: 13px;
+    position: relative;
+    bottom: 1px;
+    left: 2px;
+}
+
+p.review-comment {
+    color: black;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+}
+
+.review-total-width {
+    display: flex;
+    justify-content: center;
+}
+
 /* portfolio */
 
 .portfolio-block {
@@ -406,10 +490,9 @@ p.portfolio-p {
 /* footer */
 
 footer {
-    background: var(--green);
     padding: 10px;
     text-align: center;
-    color: white;
+    color: var(--blue);
 }
 
 /* media queries */
@@ -443,6 +526,14 @@ footer {
     img.hero-img-one {
         right: 8px;
         top: 23px;
+    }
+    /* reviews */
+    .review-block {
+        width: 45%;
+    }
+    .review-total-width .review-block {
+        width: 100%;
+        margin: 50px 50px;
     }
 }
 
@@ -522,6 +613,13 @@ footer {
     img.hero-img-one {
         max-height: 400px;
         right: 0;
+    }
+}
+
+@media screen and (max-width:600px){
+    /* reviews */
+    .review-block {
+        width: 80%;
     }
 }
 
