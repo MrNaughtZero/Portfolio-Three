@@ -170,7 +170,7 @@ li.say-hi {
     background: white;
     padding: 20px 20px 4px 20px;
     border-radius: 9px;
-    width: 188px;
+    width: 150px;
     box-shadow: 0 3px 28px 3px rgba(0,0,0,.17);
     top: 43px;
     z-index: 99;
@@ -178,7 +178,7 @@ li.say-hi {
 
 .mobile-links ul li span {
     position: relative;
-    left: 35px;
+    left: 20px;
 }
 
 .mobile-links ul li {
@@ -190,12 +190,12 @@ li.say-hi {
 .mobile-links ul li i {
     width: 20px;
     position: relative;
-    left: 33px;
+    left: 19px;
 }
 .mobile-links li.say-hi {
     width: 80px;
     position: relative;
-    left: 27px;
+    left: 15px;
     text-align: center;
     margin-top: 15px;
 }
