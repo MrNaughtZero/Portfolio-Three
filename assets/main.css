@@ -444,6 +444,7 @@ p.review-comment {
     max-width: 1000px;
     display: flex;
     margin: 0 auto 80px auto;
+    position: relative;
 }
 
 .portfolio-left {
@@ -452,7 +453,7 @@ p.review-comment {
 
 .portfolio-right {
     width: 50%;
-    margin-top: 50px;
+    margin-top: 33px;
 }
 
 .portfolio-right h2 {
@@ -476,6 +477,7 @@ p.portfolio-p {
     display: inline;
     font-size: 13px;
     padding-right: 10px;
+    white-space: nowrap;
 }
 
 .portfolio-left img {
@@ -495,6 +497,7 @@ footer {
     font-size: 12px;
     padding: 30px;
     background: azure;
+    text-align: center;
 }
 
 /* media queries */
@@ -540,10 +543,6 @@ footer {
     .reviews-flex {
         margin: 20px auto 0 auto;
     }
-    /* footer */
-    footer {
-        text-align: center;
-    }
 }
 
 @media screen and (max-width:900px){
@@ -566,9 +565,9 @@ footer {
         justify-content: center;
     }
     .portfolio-right {
-        padding-left: 0;
         padding-right: 20px;
-        margin-left: 30px;
+        padding-left: 39px;
+        margin-top: 53px;
     }
     .portfolio-left img {
         height: 100%;
@@ -649,11 +648,12 @@ footer {
         font-size: 40px;
     }
     /* portfolio */
+    .portfolio-right {
+        margin-top: 33px;
+        padding-left: 30px;
+    }
     .portfolio-left {
         margin: 20px;
-    }
-    .portfolio-right {
-        margin-left: 20px;
     }
     p.portfolio-p {
         max-width: 100%;
@@ -661,6 +661,12 @@ footer {
     }
     .portfolio-block {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:485px) and (max-width:500px){
+    .portfolio-right {
+        padding-left: 38px;
     }
 }
 
