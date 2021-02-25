@@ -176,6 +176,11 @@ li.say-hi {
     z-index: 99;
 }
 
+.mobile-links ul {
+    position: relative;
+    right: 5px;
+}
+
 .mobile-links ul li span {
     position: relative;
     left: 17px;
