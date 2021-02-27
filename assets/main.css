@@ -445,6 +445,23 @@ p.review-comment {
 
 /* portfolio */
 
+.hosted-on-heroku {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hosted-on-heroku p {
+    font-size: 10px;
+}
+
+.hosted-on-heroku i {
+    font-size: 8px;
+    color: var(--blue);
+    padding-right: 4px;
+    top: 3px;
+    position: relative;
+}
+
 .portfolio-block {
     max-width: 1000px;
     display: flex;
