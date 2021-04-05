@@ -469,6 +469,19 @@ p.review-comment {
     position: relative;
 }
 
+.in-development:before {
+    content: "In Development";
+    position: absolute;
+    background: top;
+    top: 22px;
+    background: #bff8da;
+    z-index: 99;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    right: 10px;
+}
+
 .portfolio-left {
     width: 50%;
 }
@@ -658,6 +671,13 @@ footer {
     }
 }
 
+@media screen and (max-width:520px){
+    /* in development notice */
+    .in-development:before {
+        right: 27px;
+    }
+}
+
 @media screen and (max-width:500px){
     /* nav branding */
     .nav-branding h2 {
@@ -683,6 +703,10 @@ footer {
     }
     .portfolio-block {
         margin-bottom: 30px;
+    }
+    /* in development notice */
+    .in-development:before {
+        top: 37px;
     }
 }
 
