@@ -469,6 +469,12 @@ p.review-comment {
     position: relative;
 }
 
+.portfolio-block button:hover {
+    background: #341be4;
+    color: white;
+    transition: ease-in 0.2s;
+}
+
 .in-development:before {
     content: "In Development";
     position: absolute;
