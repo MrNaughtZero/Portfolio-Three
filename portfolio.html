@@ -1,374 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/main.css" type="text/css" rel="stylesheet">
-    <title>Neil McNaught | Dev Portfolio</title>
-</head>
-<body>
-    <nav>
-        <a href="index.html">
-            <div class="nav-branding">
-                <h2>Neil McNaught</h2>
-                <img src="assets/img/logo-img.webp" onerror="this.src = 'assets/img/logo-img.jpeg'" width="40" height="40" id="nav-branding-logo">
-            </div>
-        </a>
-        <div class="nav-links">
-            <ul>
-                <a href="#portfolio">
-                    <li>
-                        Portfolio
-                    </li>
-                </a>
-                <a href="index.html#about">
-                    <li>
-                        About
-                    </li>
-                </a>
-                <a href="index.html#articles">
-                    <li>
-                        Articles
-                    </li>
-                </a>
-                <a href="index.html#reviews">
-                    <li>
-                        Reviews
-                    </li>
-                </a>
-                <a href="mailto:neilmcnaught96@gmail.com">
-                    <li class="say-hi">
-                        Say Hi
-                    </li>
-                </a>
-            </ul>
-        </div>
-        <div class="nav-mobile">
-            <i onclick="showMobileNav()" id="hamburger-icon" class="fas fa-bars"></i>
-            <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
-            <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
-            <div class="mobile-links">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="assets/main.css" type="text/css" rel="stylesheet" />
+        <title>Neil McNaught | Dev Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">
+                <div class="nav-branding">
+                    <h2>Neil McNaught</h2>
+                    <img
+                        src="assets/img/logo-img.webp"
+                        onerror="this.src = 'assets/img/logo-img.jpeg'"
+                        width="40"
+                        height="40"
+                        id="nav-branding-logo"
+                    />
+                </div>
+            </a>
+            <div class="nav-links">
                 <ul>
-                    <a href="index.html">
-                        <li>
-                            <i class="fas fa-home"></i>
-                            <span>
-                                Home
-                            </span>
-                        </li>
-                    </a>
-                    <a href="portfolio.html">
-                        <li>
-                            <i class="fas fa-palette"></i>
-                            <span>
-                                Portfolio
-                            </span>
-                        </li>
+                    <a href="#portfolio">
+                        <li>Portfolio</li>
                     </a>
                     <a href="index.html#about">
-                        <li>
-                            <i class="fas fa-user"></i>
-                            <span>
-                                About
-                            </span>
-                        </li>
+                        <li>About</li>
                     </a>
                     <a href="index.html#articles">
-                        <li>
-                            <i class="fas fa-newspaper"></i>
-                            <span>Articles</span>
-                        </li>
+                        <li>Articles</li>
                     </a>
                     <a href="index.html#reviews">
-                        <li>
-                            <i class="far fa-star"></i>
-                            <span>Reviews</span>
-                        </li>
+                        <li>Reviews</li>
                     </a>
                     <a href="mailto:neilmcnaught96@gmail.com">
-                        <li class="say-hi">
-                            Say Hi
-                        </li>
+                        <li class="say-hi">Say Hi</li>
                     </a>
                 </ul>
             </div>
-        </div>
-    </nav>
-
-    <main>
-        <section class="portfolio" id="portfolio">
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/bitcoin-money-converter.webp" onerror="this.src = 'assets/img/portfolio/bitcoin-money-converter.png'" class="portfolio-img" alt="screenshot of chrome extension">
-                </div>
-                <div class="portfolio-right">
-                    <h2>Bitcoin Money Converter</h2>
-                    <p class="portfolio-p">
-                        Bitcoin Money Converter is a Google Chrome extension. It allows you to convert Bitcoin amount to GBP/USD. It displays the current Bitcoin price, and also allows you to convert GBP/USD to Bitcoin.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
+            <div class="nav-mobile">
+                <i
+                    onclick="showMobileNav()"
+                    id="hamburger-icon"
+                    class="fas fa-bars"
+                ></i>
+                <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
+                <i onclick="hideMobileNav()" class="fas fa-times-circle"></i>
+                <div class="mobile-links">
+                    <ul>
+                        <a href="index.html">
                             <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
+                                <i class="fas fa-home"></i>
+                                <span> Home </span>
                             </li>
+                        </a>
+                        <a href="portfolio.html">
                             <li>
-                                <i class="fas fa-circle"></i>
-                                JavaScript
+                                <i class="fas fa-palette"></i>
+                                <span> Portfolio </span>
                             </li>
+                        </a>
+                        <a href="index.html#about">
                             <li>
-                                <i class="fas fa-circle"></i>
-                                Blockchain API
+                                <i class="fas fa-user"></i>
+                                <span> About </span>
                             </li>
-                        </ul>
-                    </div>
-                    <a href="https://chrome.google.com/webstore/detail/bitcoin-money-converter/dikakdioobjicnopojofmoemlfokaomo" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View On Chrome Store</button>
-                    </a>
-                </div>
-            </div>
-            <div class="portfolio-block in-development">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/sellit.webp" onerror="this.src = 'assets/img/portfolio/sellit.png'" class="portfolio-img" alt="screenshot of Sellit website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>Sell It</h2>
-                    <p class="portfolio-p">
-                        Sell It is an all-in-one payment processing and e-commerce solution. Accept payments, sell digital products from your own and more, do it all with a single platform.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
+                        </a>
+                        <a href="index.html#articles">
                             <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
+                                <i class="fas fa-newspaper"></i>
+                                <span>Articles</span>
                             </li>
+                        </a>
+                        <a href="index.html#reviews">
                             <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
+                                <i class="far fa-star"></i>
+                                <span>Reviews</span>
                             </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Python
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Flask
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                mySQL
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="hosted-on-heroku">
-                        <i class="fas fa-circle"></i>
-                        <p>Website is hosted on Heroku's free tier so may take 30 seconds to initially load</p>
-                    </div>
-                    <a href="https://github.com/MrNaughtZero/sellit" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View on Github</button>
-                    </a>
+                        </a>
+                        <a href="mailto:neilmcnaught96@gmail.com">
+                            <li class="say-hi">Say Hi</li>
+                        </a>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/usell.webp" onerror="this.src = 'assets/img/portfolio/usell.png'" class="portfolio-img" alt="screenshot of uSell website">
+        <main>
+            <section class="portfolio" id="portfolio">
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/futapi.webp"
+                            onerror="this.src = 'assets/img/portfolio/futapi.png'"
+                            class="portfolio-img"
+                            alt="screenshot of chrome extension"
+                        />
+                    </div>
+                    <div class="portfolio-right">
+                        <h2>Unofficial FIFA Ultimate Team API</h2>
+                        <p class="portfolio-p">
+                            This is an unofficial API created for a personal
+                            project. It scrapes FutBin website using an
+                            unofficial android API link, and stores all details
+                            in a mySQL database. This App is setup to run
+                            periodically to always have the most up to date
+                            data.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Python ~ Flask
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    MySql
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="https://github.com/MrNaughtZero/Fut-Api"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View On Github
+                            </button>
+                        </a>
+                    </div>
                 </div>
-                <div class="portfolio-right">
-                    <h2>uSell</h2>
-                    <p class="portfolio-p">
-                        uSell is a single product e-commerce store. uSell lets you create an online store in less than a minute, and be selling your product straight away. uSell aims at providing a service for sellers to sell a single item in bulk, who want a more professional online presence.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
-                            </li>
 
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Python
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Flask
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                mySQL
-                            </li>
-                        </ul>
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/bitcoin-money-converter.webp"
+                            onerror="this.src = 'assets/img/portfolio/bitcoin-money-converter.png'"
+                            class="portfolio-img"
+                            alt="screenshot of chrome extension"
+                        />
                     </div>
-                    <div class="hosted-on-heroku">
-                        <i class="fas fa-circle"></i>
-                        <p>Website is hosted on Heroku's free tier so may take 30 seconds to initially load</p>
+                    <div class="portfolio-right">
+                        <h2>Bitcoin Money Converter</h2>
+                        <p class="portfolio-p">
+                            Bitcoin Money Converter is a Google Chrome
+                            extension. It allows you to convert Bitcoin amount
+                            to GBP/USD. It displays the current Bitcoin price,
+                            and also allows you to convert GBP/USD to Bitcoin.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Blockchain API
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="https://chrome.google.com/webstore/detail/bitcoin-money-converter/dikakdioobjicnopojofmoemlfokaomo"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View On Chrome Store
+                            </button>
+                        </a>
                     </div>
-                    <a href="https://github.com/MrNaughtZero/uSell" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View on Github</button>
-                    </a>
                 </div>
-            </div>
+                <div class="portfolio-block in-development">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/sellit.webp"
+                            onerror="this.src = 'assets/img/portfolio/sellit.png'"
+                            class="portfolio-img"
+                            alt="screenshot of Sellit website"
+                        />
+                    </div>
+                    <div class="portfolio-right">
+                        <h2>Sell It</h2>
+                        <p class="portfolio-p">
+                            Sell It is an all-in-one payment processing and
+                            e-commerce solution. Accept payments, sell digital
+                            products from your own and more, do it all with a
+                            single platform.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Python
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Flask
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    mySQL
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hosted-on-heroku">
+                            <i class="fas fa-circle"></i>
+                            <p>
+                                Website is hosted on Heroku's free tier so may
+                                take 30 seconds to initially load
+                            </p>
+                        </div>
+                        <a
+                            href="https://github.com/MrNaughtZero/sellit"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View on Github
+                            </button>
+                        </a>
+                    </div>
+                </div>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/soul-yoga.webp" onerror="this.src = 'assets/img/portfolio/soul-yoga.png'" class="portfolio-img" alt="screenshot of yoga website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>Soul Yoga</h2>
-                    <p class="portfolio-p">
-                        SoulYoga is a very basic HTML/CSS template for a Yoga Company. Created within a day, and fully responsive. Javascript used only for the mobile menu, and to apply additional classes on nav links.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
-                            </li>
-                        </ul>
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/usell.webp"
+                            onerror="this.src = 'assets/img/portfolio/usell.png'"
+                            class="portfolio-img"
+                            alt="screenshot of uSell website"
+                        />
                     </div>
-                    <a href="https://mrnaughtzero.github.io/Soul-Yoga/" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View Live</button>
-                    </a>
-                </div>
-            </div>
+                    <div class="portfolio-right">
+                        <h2>uSell</h2>
+                        <p class="portfolio-p">
+                            uSell is a single product e-commerce store. uSell
+                            lets you create an online store in less than a
+                            minute, and be selling your product straight away.
+                            uSell aims at providing a service for sellers to
+                            sell a single item in bulk, who want a more
+                            professional online presence.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/newapp.webp" onerror="this.src = 'assets/img/portfolio/newapp.png'" class="portfolio-img" alt="screenshot of newapp website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>New App</h2>
-                    <p class="portfolio-p">
-                        New App is a landing page for an iOS/Google App. Built with HTML, CSS and Javascript.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                        </ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Python
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Flask
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    mySQL
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hosted-on-heroku">
+                            <i class="fas fa-circle"></i>
+                            <p>
+                                Website is hosted on Heroku's free tier so may
+                                take 30 seconds to initially load
+                            </p>
+                        </div>
+                        <a
+                            href="https://github.com/MrNaughtZero/uSell"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View on Github
+                            </button>
+                        </a>
                     </div>
-                    <a href="https://mrnaughtzero.github.io/New-App/" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View Live</button>
-                    </a>
                 </div>
-            </div>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/neilwrites.webp" onerror="this.src = 'assets/img/portfolio/neil-writes.png'" class="portfolio-img" alt="screenshot of neilwrites website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>neilWrites</h2>
-                    <p class="portfolio-p">
-                        neilWrites is a blogging web app built with Flask. It currently doesn't allow support new user registrations, but it may be added in the future. 
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Python
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Flask
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                mySQL
-                            </li>
-                        </ul>
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/soul-yoga.webp"
+                            onerror="this.src = 'assets/img/portfolio/soul-yoga.png'"
+                            class="portfolio-img"
+                            alt="screenshot of yoga website"
+                        />
                     </div>
-                    <div class="hosted-on-heroku">
-                        <i class="fas fa-circle"></i>
-                        <p>Website is hosted on Heroku's free tier so may take 30 seconds to initially load</p>
+                    <div class="portfolio-right">
+                        <h2>Soul Yoga</h2>
+                        <p class="portfolio-p">
+                            SoulYoga is a very basic HTML/CSS template for a
+                            Yoga Company. Created within a day, and fully
+                            responsive. Javascript used only for the mobile
+                            menu, and to apply additional classes on nav links.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="https://mrnaughtzero.github.io/Soul-Yoga/"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View Live
+                            </button>
+                        </a>
                     </div>
-                    <a href="https://github.com/MrNaughtZero/neilWrites" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View on Github</button>
-                    </a>
                 </div>
-            </div>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/mycoffee.webp" onerror="this.src = 'assets/img/portfolio/mycoffee.png'" class="portfolio-img" alt="screenshot of my coffee website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>myCoffee</h2>
-                    <p class="portfolio-p">
-                        My Coffee is a eCommerce home page created with HTMl, CSS and a little bit of Javascript. It has no functionality - just design.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
-                            </li>
-                        </ul>
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/newapp.webp"
+                            onerror="this.src = 'assets/img/portfolio/newapp.png'"
+                            class="portfolio-img"
+                            alt="screenshot of newapp website"
+                        />
                     </div>
-                    <a href="https://mrnaughtzero.github.io/myCoffee/" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View Live</button>
-                    </a>
+                    <div class="portfolio-right">
+                        <h2>New App</h2>
+                        <p class="portfolio-p">
+                            New App is a landing page for an iOS/Google App.
+                            Built with HTML, CSS and Javascript.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="https://mrnaughtzero.github.io/New-App/"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View Live
+                            </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="portfolio-block">
-                <div class="portfolio-left">
-                    <img src="assets/img/portfolio/sneakershields.webp" onerror="this.src = 'assets/img/portfolio/sneakershields.png'" class="portfolio-img" alt="screenshot of sneakershields website">
-                </div>
-                <div class="portfolio-right">
-                    <h2>Sneaker Shields</h2>
-                    <p class="portfolio-p">
-                        Sneaker Shields is an online store that was built using WordPress with a custom theme. This was a duo effort with another developer from Fiverr.
-                    </p>
-                    <div class="tech-stack">
-                        <ul>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                HTML/CSS
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                Javascript
-                            </li>
-                            <li>
-                                <i class="fas fa-circle"></i>
-                                WordPress
-                            </li>
-                        </ul>
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/neilwrites.webp"
+                            onerror="this.src = 'assets/img/portfolio/neil-writes.png'"
+                            class="portfolio-img"
+                            alt="screenshot of neilwrites website"
+                        />
                     </div>
-                    <a href="https://sneakershields.com/" target="_blank">
-                        <button type="button" class="btn-opac btn-blue">View Live</button>
-                    </a>
+                    <div class="portfolio-right">
+                        <h2>neilWrites</h2>
+                        <p class="portfolio-p">
+                            neilWrites is a blogging web app built with Flask.
+                            It currently doesn't allow support new user
+                            registrations, but it may be added in the future.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Python
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Flask
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    mySQL
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hosted-on-heroku">
+                            <i class="fas fa-circle"></i>
+                            <p>
+                                Website is hosted on Heroku's free tier so may
+                                take 30 seconds to initially load
+                            </p>
+                        </div>
+                        <a
+                            href="https://github.com/MrNaughtZero/neilWrites"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View on Github
+                            </button>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Developed by Neil McNaught❤️</p>
-    </footer>
-    <script src="assets/main.js"></script>
-</body>
+
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/mycoffee.webp"
+                            onerror="this.src = 'assets/img/portfolio/mycoffee.png'"
+                            class="portfolio-img"
+                            alt="screenshot of my coffee website"
+                        />
+                    </div>
+                    <div class="portfolio-right">
+                        <h2>myCoffee</h2>
+                        <p class="portfolio-p">
+                            My Coffee is a eCommerce home page created with
+                            HTMl, CSS and a little bit of Javascript. It has no
+                            functionality - just design.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
+                            </ul>
+                        </div>
+                        <a
+                            href="https://mrnaughtzero.github.io/myCoffee/"
+                            target="_blank"
+                        >
+                            <button type="button" class="btn-opac btn-blue">
+                                View Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-block">
+                    <div class="portfolio-left">
+                        <img
+                            src="assets/img/portfolio/sneakershields.webp"
+                            onerror="this.src = 'assets/img/portfolio/sneakershields.png'"
+                            class="portfolio-img"
+                            alt="screenshot of sneakershields website"
+                        />
+                    </div>
+                    <div class="portfolio-right">
+                        <h2>Sneaker Shields</h2>
+                        <p class="portfolio-p">
+                            Sneaker Shields is an online store that was built
+                            using WordPress with a custom theme. This was a duo
+                            effort with another developer from Fiverr.
+                        </p>
+                        <div class="tech-stack">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    HTML/CSS
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    Javascript
+                                </li>
+                                <li>
+                                    <i class="fas fa-circle"></i>
+                                    WordPress
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://sneakershields.com/" target="_blank">
+                            <button type="button" class="btn-opac btn-blue">
+                                View Live
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Developed by Neil McNaught❤️</p>
+        </footer>
+        <script src="assets/main.js"></script>
+    </body>
 </html>
